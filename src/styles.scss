@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  background: url('/assets/CRUD_PIC.jpg') center / cover no-repeat;
+  background-attachment: fixed;  
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  background: url('/assets/CRUD_PIC.jpg') no-repeat fixed;
+  background-size: cover;
+
+  /* 👇 move image a bit upward */
+  background-position: center -52px;
+}
