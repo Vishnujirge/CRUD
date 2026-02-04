@@ -36,7 +36,7 @@ export class TodoService {
   }
 
   fetchTodos() : Observable<Itodo[]>{
-    return of(this.todos) //API Call
+    return of(this.todos) 
   }
 
   createTodo(todo : Itodo) : Observable<Itodo>{
